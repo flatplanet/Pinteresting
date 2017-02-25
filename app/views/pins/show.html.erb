@@ -2,7 +2,9 @@
 
 <p>
   <strong>Description:</strong>
-  <%= @pin.description %>
+  <%= @pin.description %><br/>
+  <strong>Name:</strong>
+  <%= @pin.user.name %>
 </p>
 
 <%= link_to 'Edit', edit_pin_path(@pin) %> |
