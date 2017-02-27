@@ -14,6 +14,7 @@ gem 'paperclip', '~> 5.1'
 gem 'aws-sdk', '~> 2.7', '>= 2.7.15'
 
 
+
 group :development, :test do
   gem 'byebug'
   gem 'sqlite3'
