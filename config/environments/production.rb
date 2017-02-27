@@ -77,7 +77,7 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
   
-  config.action_mailer.default_url_options = { host: 'pintersting41.herokuapp.com'}
+  config.action_mailer.default_url_options = { host: 'pinteresting41.herokuapp.com'}
   
   config.paperclip_defaults = {
   storage: :s3,
@@ -89,6 +89,6 @@ Rails.application.configure do
   }
 }
 
-Paperclip::Attachment.default_options[:s3_host_name] = 's3-us-west-2.amazonaws.com'
+
   
 end
